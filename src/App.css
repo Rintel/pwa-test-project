@@ -1,0 +1,12 @@
+.CurrencyDropdownContainer {
+  width: 200px;
+  justify-self: center;
+}
+
+.CurrencyBody {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

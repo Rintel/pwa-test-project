@@ -1,0 +1,68 @@
+.FertilizerContainer {
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+}
+
+.FertilizerBrand {
+  border: 5px solid #f2efec;
+  padding: 25px;
+  margin-bottom: 25px;
+  align-content: center;
+  grid-column-start: 2;
+  height: 160px;
+  display: flex;
+  align-items: center;
+}
+
+.FertilizerBrand:hover {
+  border-color: #fff;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.22);
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.22);
+}
+
+.FertilizerLogo {
+  justify-content: flex-start;
+  width: 250px;
+}
+
+.FertilizerTextContainer {
+  padding: 25px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.FertilizerUrl {
+  color: #2777b8;
+  height: 36px;
+  font-size: 1.5rem;
+}
+
+.FertilizerInfoText {
+  color: #767676;
+  font-size: 16px;
+}
+
+h1.PageTitle {
+  padding-top: 25px;
+  margin: 0 200px 0 200px;
+  color: #2777b8;
+  text-align: left;
+  font-size: 3rem;
+}
+
+.PageSubTitle {
+  font-size: 2rem;
+  color: #2777b8;
+  margin: 50px 200px 0 200px !important;
+  text-align: left;
+}
+
+.PageInfoText {
+  font-size: 16px;
+  line-height: 1.75;
+  margin: 25px 200px 25px 200px;
+  text-align: left;
+  color: #767676;
+}
